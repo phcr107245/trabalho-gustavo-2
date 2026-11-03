@@ -1,0 +1,176 @@
+*{                                                                              
+    margin: 0;                                                                  
+    padding: 0;                                                                 
+    box-sizing: border-box;                                                     
+}                                                                               
+                                                                                
+section{                                                                        
+    width: 100%;                                                                
+    height: 35vh;                                                               
+    float: left;                                                                
+    padding: 1%;                                                                
+}                                                                               
+header{                                                                         
+    width: 100%;                                                                
+    height: 15vh;                                                               
+    background: #332F31;                                                        
+}
+header img{
+    width: 40%;
+    height: 10vh;
+    float: left;
+    margin-top: 2.5vh;
+    margin-left: 16%;
+}                                                                               
+footer{                                                                         
+    width: 100%;                                                                
+    height: 15vh;                                                               
+    float: left;                                                                
+    padding: 2%;                                                                
+    background: #332F31;                                                        
+}                                                                               
+#Cs2{                                                                      
+    background: #384DF5;                                                        
+}                                                                               
+#valorant{                                                                      
+    background: #2a3fdd;                                                        
+}                                                                               
+.skin {
+    width: 18%;
+    height: 25vh;
+    background: #1a1a2e;
+    position: relative;       
+    display: inline-block;     
+    margin-left: 1.6%;
+    margin-top: 1vh;
+    border-radius: 12px;
+    vertical-align: top;      
+    overflow: hidden;        
+}
+
+img {
+    width: 50%;
+    height: 25vh;
+    position: absolute;        
+    left: 10%;                
+    border-radius: 12px;
+    object-fit: cover;         
+}
+
+button {
+    width: 25%;
+    position: absolute;        
+    right: 10%;               
+    top: 7vh;                 
+    padding: 14px 20px;
+    background-color: #7d31d4;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+h3 {
+    position: absolute;
+    right: 10%;               
+    top: 16vh;                 
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 25%;   
+     color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;             
+}
+h4 {
+    position: absolute;
+    right: 10%;
+    top: 4vh;                
+    width: 25%;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;       
+    font-weight: 600;
+    color: #ffffff;          
+    letter-spacing: 0.3px;
+}
+
+#valorant .skin {
+    width: 18%;
+    height: 25vh;
+    background: #1a1a2e;           
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.6%;
+    margin-top: 1vh;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+#valorant .skin img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;                     
+    height: 100%;
+    object-fit: cover;             
+    object-position: center;
+    border-radius: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+#valorant .skin button {
+    width: 25%;
+    position: absolute;        
+    right: 10%;               
+    top: 7vh;                 
+    padding: 14px 20px;
+    background-color: #7d31d4;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+#valorant .skin h4 {
+    position: absolute;
+    right: 10%;
+    top: 4vh;                
+    width: 25%;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;       
+    font-weight: 600;
+    color: #ffffff;          
+    letter-spacing: 0.3px;
+}
+
+
+#valorant .skin h3 {
+    position: absolute;
+    right: 10%;               
+    top: 16vh;                 
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 25%;   
+     color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;   
+}
+#valorant .skin img {
+    object-fit: contain;           
+    padding: 5%;
+    box-sizing: border-box;
+}                                                                     
